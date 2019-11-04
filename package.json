@@ -1,0 +1,28 @@
+{
+  "name": "htmlpage2pdf",
+  "version": "1.0.0",
+  "description": "Конвертер HTML в PDF через Chrome",
+  "main": "app/index.js",
+  "scripts": {
+    "start": "node app/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tradash/htmlpage2pdf.git"
+  },
+  "keywords": [
+    "htmlpage2pdf"
+  ],
+  "author": "Bobkov Alexandr",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "elapsed-time": "0.0.1",
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "puppeteer": "^1.20.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.17.0"
+  }
+}
